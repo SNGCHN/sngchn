@@ -2,11 +2,11 @@ name: Update README with latest posts
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 매일 00:00 UTC
-  workflow_dispatch: # 수동 실행 버튼
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write # README에 커밋하려면 필요
+  contents: write
 
 jobs:
   update-readme:
