@@ -17,5 +17,5 @@ jobs:
         with:
           feed_list: "https://blog.sngchn.dev/rss.xml"
           max_post_count: 5
-          template: "- [$title]($url) <sub>$date</sub>$newline"
+          template: '<a href="$url">$title</a> <sub>$date</sub> <br>'
           date_format: "yy.mm.dd"
